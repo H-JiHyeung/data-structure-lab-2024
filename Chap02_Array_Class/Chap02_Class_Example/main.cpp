@@ -4,7 +4,8 @@
 //#include"Rectangle.h"
 //#include "SmartHome.h"
 #include "Music.h"
-void main() {
+
+int main() {
 	/*	// Car 클래스 사용
 		Car myCar(50, "K3", 4);
 		Car yourCar(100, "K5", 3);
@@ -56,7 +57,7 @@ void main() {
 	cout << "Enter the Artist Name : ";
 	cin >> artist_name;
 
-	vector<Music>* > artistResult = myService.searchByArtist(artist_name);
+	vector<Music*> artistResult = myService.searchByArtist(artist_name);
 	if (artistResult.size() > 0) {
 		cout << "Found " << artistResult.size() << " songs by " << artist_name << " : " << endl;
 		for (int i = 0; i < artistResult.size(); i++) {
