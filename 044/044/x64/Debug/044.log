@@ -1,0 +1,5 @@
+﻿  lec11.c
+C:\Users\USER\Documents\data-structure-lab-2024\044\044\lec11.c(17,17): error C2059: 구문 오류: ')'
+C:\Users\USER\Documents\data-structure-lab-2024\044\044\lec11.c(31,25): warning C4013: 'printpoly'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\USER\Documents\data-structure-lab-2024\044\044\lec11.c(35,13): error C2440: 'return': 'int'에서 'ploynominal'(으)로 변환할 수 없습니다.
+C:\Users\USER\Documents\data-structure-lab-2024\044\044\lec11.c(37,1): error C1004: 예기치 않은 파일의 끝이 나타났습니다.
